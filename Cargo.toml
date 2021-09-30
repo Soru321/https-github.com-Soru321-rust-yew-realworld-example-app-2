@@ -1,0 +1,16 @@
+[package]
+name = "rust-yew-realworld-example-app-2"
+version = "0.1.0"
+edition = "2018"
+
+#We will use the Yewlibrary to create UI components
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+#evrery dependencies of rust-yew-realworld-example-app-2
+[dependencies]
+
+yew = "0.18.0"
+wasm-bindgen = "0.2"
+
