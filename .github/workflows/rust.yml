@@ -1,0 +1,43 @@
+name: build
+
+on: 
+  push:
+    branches: 
+      - master
+    paths-ignore:
+      - '**.md'
+      - '**.png'
+      - '**cd.yml'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Installing needed Ubuntu dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install libwebkit2gtk-4.0-37 libwebkit2gtk-4.0-dev
+    - uses: actions/checkout@v1
+    - uses: jetli/wasm-pack-action@v0.3.0
+      with:
+        # Optional version of wasm-pack to install(eg. '0.9.1', 'latest')
+        version: 'latest'
+    - name: Build
+      run: |
+        cp .env.example .env
+        npm run install
+        npm run build
+        npm run build:webview
+        cargo build --verbose -p conduit-webview
+    - name: cargo fmt & clippy
+      run: |
+        cargo fmt --all -- --check
+        cargo clippy -- --deny=warnings
+    - name: Setup chromedriver
+      uses: nanasess/setup-chromedriver@v1.0.1
+    - name: Run tests
+      run: |
+        npm run test
+        cargo test --verbose -p conduit-webview
