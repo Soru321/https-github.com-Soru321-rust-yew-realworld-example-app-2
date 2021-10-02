@@ -4,7 +4,7 @@ use yew_router::prelude::*;
 use yew_router::route::Route;
  
 
-  use crate::routes::{home::Home,};
+  use crate::routes::{home::Home, AppRoute};
 
   pub struct App {}
 
@@ -25,13 +25,11 @@ use yew_router::route::Route;
     }
 
     fn view(&self) -> Html {
-        
-        let render = Router::render(|switch: Route| match switch {
-            Route::Route => html! {<Home/>},
+        let routes = AppRoute::routes (|switch : AppRoute| match switch {
+            AppRoute::Home => html!{<Home/>} 
         });
 
-        html! {
-            <Router<Route, ()> render=render/>
-        }
+        html!{<AppRoutes > AppRoute, ()> routes = routes}
+       
     }
 }
