@@ -93,7 +93,7 @@ impl Component for MainView {
                     </ul>
                 </div>
 
-                //<ArticleList filter=&self.filter />
+                <ArticleList filter=&self.filter />
             </div>
         }
     }
@@ -102,69 +102,53 @@ impl Component for MainView {
 impl MainView {
     fn your_feed_tab(&self) -> Html {
         if is_authenticated() {
-
-            //let (msg, class) = self.get_tab_msg_class(Tab::Feed);
-            /*
+            let (msg, class) = self.get_tab_msg_class(Tab::Feed);
             let onclick = self.link.callback(move |ev: MouseEvent| {
                 ev.prevent_default();
-                //msg.clone()
+                msg.clone()
             });
-            */
-            html! {}
-            /*
+
             html! {
                 <li class="nav-item">
                     <a  href=""
-                        //class=class
+                        class=class
                         onclick=onclick>
                         { "Your Feed" }
                     </a>
                 </li>
             }
-            */
         } else {
             html! {}
         }
     }
 
     fn global_feed_tab(&self) -> Html {
-       /*
         let (msg, class) = self.get_tab_msg_class(Tab::All);
-       
         let onclick = self.link.callback(move |ev: MouseEvent| {
             ev.prevent_default();
-           // msg.clone()
+            msg.clone()
         });
-        */
 
-        html!{}
-        /*
         html! {
             <li class="nav-item">
                 <a
                     href=""
-                    //class=class
-                    //onclick=onclick>
+                    class=class
+                    onclick=onclick>
                     { "Global Feed" }
                 </a>
             </li>
         }
-        */
     }
 
     fn tag_filter_tab(&self) -> Html {
-        
         if let Some(tag) = &self.props.tag {
-           // let (msg, class) = self.get_tab_msg_class(Tab::Tag);
-           /*
-           let onclick = self.link.callback(move |ev: MouseEvent| {
+            let (msg, class) = self.get_tab_msg_class(Tab::Tag);
+            let onclick = self.link.callback(move |ev: MouseEvent| {
                 ev.prevent_default();
                 msg.clone()
             });
-            */
 
-            html!{}
-            /*
             html! {
                 <li class="nav-item">
                     <a
@@ -175,7 +159,6 @@ impl MainView {
                     </a>
                 </li>
             }
-            */
         } else {
             html! {}
         }

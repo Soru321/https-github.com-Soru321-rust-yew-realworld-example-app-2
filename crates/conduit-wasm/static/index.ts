@@ -1,3 +1,5 @@
-import { run_app } from '../Cargo.toml'
+/*
+import { run_app } from '/Makefile.toml' 
 
 run_app()
+*/

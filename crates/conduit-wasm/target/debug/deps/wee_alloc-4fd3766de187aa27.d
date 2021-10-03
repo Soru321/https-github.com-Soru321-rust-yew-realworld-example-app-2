@@ -1,0 +1,11 @@
+a:\Rust_programing\webassambly_Rust\conduit-wasm\target\debug\deps\wee_alloc-4fd3766de187aa27.rmeta: C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\lib.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\extra_assert.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\const_init.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\neighbors.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\size_classes.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\imp_windows.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\size_classes_init.rs
+
+a:\Rust_programing\webassambly_Rust\conduit-wasm\target\debug\deps\wee_alloc-4fd3766de187aa27.d: C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\lib.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\extra_assert.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\const_init.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\neighbors.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\size_classes.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\imp_windows.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\size_classes_init.rs
+
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\lib.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\extra_assert.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\const_init.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\neighbors.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\size_classes.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\imp_windows.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\wee_alloc-0.4.5\src\size_classes_init.rs:

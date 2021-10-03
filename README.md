@@ -41,7 +41,12 @@ You can view a full list of crates being used in [Cargo.toml], but here are some
 * [serde] - a generic serialization/deserialization framework.
 * [chrono] - date and time library for Rust.
 
-# Getting started
+# Getting started 
+
+# MakeFiles by Ouda18 
+I had and added some code and a MakeFile.
+for your test, you simply have to install Rust, Cargo, wasm-pack, and open the project path in two command window after cloning and running it in one of the windows: cargo marke build and in the other cargo make server. after opening chrome with: 127.0.0.1:8000
+think you ...
 
 ## With Docker
 

@@ -91,8 +91,7 @@ impl Component for ArticleList {
                 html! {
                     <>
                         {for article_list.articles.iter().map(|article| {
-                            html!{}
-                            //html! { <ArticlePreview article=article /> }
+                            html! { <ArticlePreview article=article /> }
                         })}
                         <ListPagination
                             articles_count=article_list.articles_count

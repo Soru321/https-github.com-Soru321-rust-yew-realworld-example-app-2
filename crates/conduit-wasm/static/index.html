@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en/fr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,11 @@
     <title>Conduit</title>
   </head>
   <body>
-    <script src="index.ts"></script>
+    
+    <!--import js code-->
+    <script type="module">
+      import init from "/wasm.js";
+      init();
+    </script>
   </body>
 </html>

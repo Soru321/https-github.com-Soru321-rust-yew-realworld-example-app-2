@@ -93,7 +93,6 @@ impl Component for CommentInput {
             .link
             .callback(|ev: InputData| Msg::UpdateComment(ev.value));
         html! {
-            /*
             <>
                 <ListErrors error=&self.error />
                 <form class="card comment-form" onsubmit=onsubmit>
@@ -107,13 +106,12 @@ impl Component for CommentInput {
                     </div>
                     <div class="card-footer">
                         {if let Some(image) = &self.props.current_user.image {
-
                             html! {
                                 <img
                                     src={ image }
-                                    class="comment-author-img"alt={ &self.props.current_user.username} />
+                                    class="comment-author-img"
+                                    alt={ &self.props.current_user.username} />
                             }
-
                         } else {
                             html! { }
                         }}
@@ -125,7 +123,6 @@ impl Component for CommentInput {
                     </div>
                 </form>
             </>
-            */
         }
     }
 }

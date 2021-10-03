@@ -13,22 +13,30 @@ use yew_router::prelude::*;
 /// App routes
 #[derive(Switch, Debug, Clone)]
 pub enum AppRoute {
+    //login root
     #[to = "#/login"]
     Login,
+   //My register 
     #[to = "#/register"]
     Register,
+    // editore 
     #[to = "#/editor/{slug}"]
     Editor(String),
+   
     #[to = "#/editor"]
     EditorCreate,
+   // somme articales 
     #[to = "#/article/{slug}"]
     Article(String),
+    // the setings 
     #[to = "#/settings"]
     Settings,
+    
     #[to = "#/@{username}/favorites"]
     ProfileFavorites(String),
     #[to = "#/@{username}"]
     Profile(String),
+    // home route 
     #[to = "#/"]
     Home,
 }

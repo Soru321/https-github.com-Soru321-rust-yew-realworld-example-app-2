@@ -91,7 +91,11 @@ impl Component for Article {
                     <div class="banner">
                         <div class="container">
                             <h1>{&article.title}</h1>
-    //<ArticleMeta slug=&article.slug author=&article.author can_modify=can_modify created_at=created_at />
+                            <ArticleMeta
+                                slug=&article.slug
+                                author=&article.author
+                                can_modify=can_modify
+                                created_at=created_at />
                         </div>
                     </div>
                     <div class="container page">
@@ -114,7 +118,7 @@ impl Component for Article {
                         <div class="article-actions">
                         </div>
                         <div class="row">
-            // <CommentList slug=&self.props.slug current_user=&self.props.current_user />
+                            <CommentList slug=&self.props.slug current_user=&self.props.current_user />
                         </div>
                     </div>
                 </div>

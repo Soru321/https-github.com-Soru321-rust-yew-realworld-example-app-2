@@ -1,0 +1,9 @@
+a:\Rust_programing\webassambly_Rust\conduit-wasm\target\debug\deps\yew_router_route_parser-1db0377243bcad3d.rmeta: C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\lib.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\core.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\error.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\parser.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\optimizer.rs
+
+a:\Rust_programing\webassambly_Rust\conduit-wasm\target\debug\deps\yew_router_route_parser-1db0377243bcad3d.d: C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\lib.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\core.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\error.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\parser.rs C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\optimizer.rs
+
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\lib.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\core.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\error.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\parser.rs:
+C:\Users\adouj\.cargo\registry\src\github.com-1ecc6299db9ec823\yew-router-route-parser-0.14.0\src\optimizer.rs:

@@ -92,9 +92,10 @@ impl Component for CommentList {
                             let callback = self.link.callback(Msg::CommentAdded);
                             html! {
                                 <div>
-//<CommentInput slug=&self.props.slug current_user=user_info callback=callback /> 
-                                        
-                                       
+                                    <CommentInput
+                                        slug=&self.props.slug
+                                        current_user=user_info
+                                        callback=callback />
                                 </div>
                             }
                         } else {
@@ -116,7 +117,11 @@ impl Component for CommentList {
                         {for comment_list.iter().map(|comment| {
                             let callback = self.link.callback(Msg::CommentDeleted);
                             html! {
-//<Comment slug=&self.props.slug comment=comment current_user=&self.props.current_user callback=callback />
+                                <Comment
+                                    slug=&self.props.slug
+                                    comment=comment
+                                    current_user=&self.props.current_user
+                                    callback=callback />
                             }
                         })}
                     </div>

@@ -11,7 +11,7 @@ use yew::services::storage::{Area, StorageService};
 use crate::error::Error;
 use crate::types::ErrorInfo;
 
-//const API_ROOT: &str = dotenv!("API_ROOT");
+const API_ROOT: &str = dotenv!("API_ROOT");
 const TOKEN_KEY: &str = "yew.token";
 
 lazy_static! {
@@ -102,8 +102,7 @@ impl Requests {
             }
         };
 
-       // let url = format!("{}{}", API_ROOT, url);
-
+        let url = format!("{}{}", API_ROOT, url);
         let mut builder = Request::builder()
             .method(method)
             .uri(url.as_str())

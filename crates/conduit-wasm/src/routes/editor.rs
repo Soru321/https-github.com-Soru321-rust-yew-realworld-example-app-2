@@ -193,7 +193,7 @@ impl Component for Editor {
                 <div class="container page">
                     <div class="row">
                         <div class="col-md-10 offset-md-1 col-xs-12">
-                           // <ListErrors error=&self.error />
+                            <ListErrors error=&self.error />
                             <form onsubmit=onsubmit>
                                 <fieldset>
                                     <fieldset class="form-group">
@@ -201,7 +201,7 @@ impl Component for Editor {
                                             class="form-control form-control-lg"
                                             type="text"
                                             placeholder="Article Title"
-                                            //value={ &self.request.title }
+                                            value={ &self.request.title }
                                             oninput=oninput_title />
                                     </fieldset>
                                     <fieldset class="form-group">
@@ -209,7 +209,7 @@ impl Component for Editor {
                                             class="form-control"
                                             type="text"
                                             placeholder="What's this article about?"
-                                            //value={ &self.request.description }
+                                            value={ &self.request.description }
                                             oninput=oninput_description />
                                     </fieldset>
                                     <fieldset class="form-group">
@@ -217,7 +217,7 @@ impl Component for Editor {
                                             class="form-control"
                                             rows="8"
                                             placeholder="Write your article (in markdown)"
-                                            //value={ &self.request.body}
+                                            value={ &self.request.body}
                                             oninput=oninput_body >
                                         </textarea>
                                     </fieldset>
@@ -226,7 +226,7 @@ impl Component for Editor {
                                             class="form-control"
                                             type="text"
                                             placeholder="Enter tags"
-                                            //value={ &self.tag_input }
+                                            value={ &self.tag_input }
                                             oninput=oninput_tag
                                             onkeypress=onkeypress
                                             onkeyup=onkeyup />
